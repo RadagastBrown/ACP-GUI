@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs213.chess.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cs213.chess.android.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cs213.chess.android.PlayActivity"
+            android:label="@string/title_activity_play" >
+        </activity>
+        <activity
+            android:name="cs213.chess.android.fragment.ChessBoard"
+            android:label="@string/title_activity_chess_board" >
+        </activity>
+        <activity
+            android:name="cs213.chess.android.PlaybackActivity"
+            android:label="@string/title_activity_playback" >
+        </activity>
+        <activity
+            android:name="cs213.chess.android.ListGamesActivity"
+            android:label="@string/title_activity_list_games" >
+        </activity>
+    </application>
+
+</manifest>

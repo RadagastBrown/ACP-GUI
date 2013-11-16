@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Chess Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="derp">Derp</string>
+    <string name="playNew">Play</string>
+    <string name="continueGame">Continue</string>
+    <string name="replayGame">Replay</string>
+    <string name="exitGame">Exit</string>
+    <string name="chess_message">Message Goes Here</string>
+    <string name="chess_commit">Commit</string>
+    <string name="chess_undo">Undo</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="title_activity_chess_board">ChessBoard</string>
+    <string name="label_h">h</string>
+    <string name="label_g">g</string>
+    <string name="label_f">f</string>
+    <string name="label_e">e</string>
+    <string name="label_d">d</string>
+    <string name="label_c">c</string>
+    <string name="label_b">b</string>
+    <string name="label_a">a</string>
+    <string name="label_1">1</string>
+    <string name="label_2">2</string>
+    <string name="label_3">3</string>
+    <string name="label_4">4</string>
+    <string name="label_5">5</string>
+    <string name="label_6">6</string>
+    <string name="label_7">7</string>
+    <string name="label_8">8</string>
+    <string name="title_activity_playback">PlaybackActivity</string>
+    <string name="back_button">Back</string>
+    <string name="next_button">Next</string>
+    <string name="exit_button">Exit</string>
+    <string name="ai_button">AI</string>
+    <string name="draw_button">Draw</string>
+    <string name="undo_button">Undo</string>
+    <string name="end_turn_button">End Turn</string>
+    <string name="resign_button"> Resign</string>
+    <string name="white_pawn">1P</string>
+    <string name="white_rook">1R</string>
+    <string name="white_bishop">1B</string>
+    <string name="white_knight">1N</string>
+    <string name="white_queen">1Q</string>
+    <string name="white_king">1K</string>
+    <string name="black_pawn">2P</string>
+    <string name="black_rook">2R</string>
+    <string name="black_bishop">2B</string>
+    <string name="black_knight">2N</string>
+    <string name="black_queen">2Q</string>
+    <string name="black_king">2K</string>
+    <string name="next_move">Next Move</string>
+    <string name="title_activity_list_games">ListGamesActivity</string>
+    <string name="select_game">Please select a game</string>
+    <string name="sort_by_name">By Name</string>
+    <string name="sort_by_date">By Date</string>
+
+</resources>
